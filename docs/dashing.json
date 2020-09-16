@@ -1,0 +1,10 @@
+{
+    "name": "Material UI",
+    "package": "material-ui",
+    "selectors": {
+        "h1": "Component"
+    },
+    "icon32x32": "docs/public/static/logo.png",
+    "allowJS": false,
+    "ExternalURL": "https://material-ui.com/"
+}

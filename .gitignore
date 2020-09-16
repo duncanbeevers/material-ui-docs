@@ -11,6 +11,7 @@
 /coverage
 /docs/export
 /examples/**/.cache
+/material-ui.docset
 /packages/material-ui-codemod/lib
 /packages/material-ui-icons/material-icons/*
 /test/regressions/screenshots

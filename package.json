@@ -12,6 +12,7 @@
     "docs:build-color-preview": "babel-node scripts/buildColorTypes",
     "docs:deploy": "yarn workspace docs deploy",
     "docs:dev": "yarn workspace docs dev",
+    "docs:docset": "yarn docs:build; cross-env PULL_REQUEST=true yarn docs:export; dashing build --source docs/export/api --config docs/dashing.json",
     "docs:export": "yarn workspace docs export",
     "docs:icons": "yarn workspace docs icons",
     "docs:size-why": "cross-env DOCS_STATS_ENABLED=true yarn docs:build",
